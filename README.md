@@ -11,7 +11,7 @@ Get the script, put it somewhere in PATH, and make it executable. Example:
 ```bash
 curl \
   -sSL \
-  https://raw.githubusercontent.com/zacanger/canary.sh/master/canary.sh \
+  https://raw.githubusercontent.com/zautumnz/canary.sh/master/canary.sh \
   -o /usr/local/bin/canary.sh
 # Always verify the contents of anything you curl down before running!
 less /usr/local/bin/canary.sh
@@ -22,7 +22,7 @@ canary.sh -h
 You can also get specific tags or commits. Example:
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/zacanger/canary.sh/v0.4.0/canary.sh -o canary.sh
+curl -sSL https://raw.githubusercontent.com/zautumnz/canary.sh/v0.4.0/canary.sh -o canary.sh
 ```
 
 See the [changelog](./CHANGELOG.md) for history.
@@ -69,7 +69,7 @@ Optional variables:
     fails and rolls back.
   WORKING_DIR: defaults to $(mktemp -d).
 
-See https://github.com/zacanger/canary.sh for details.
+See https://github.com/zautumnz/canary.sh for details.
 ```
 
 ## Example
